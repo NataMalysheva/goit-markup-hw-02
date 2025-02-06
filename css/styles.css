@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", san-serif;
+    font-family: "Roboto"; san-serif;
     color: #434455;
     background-color: #fff;
 }
@@ -27,7 +27,6 @@ button {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-
 
 .nav-link, .logo-part {
     color: #2e2f42;
@@ -72,7 +71,7 @@ button {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 1.07143;
     letter-spacing: 0.02em;
     color: #fff;
 }
@@ -95,6 +94,23 @@ button {
 /* #endregion hero */
 
 /* #region section-benefits */
+.benefits-title,
+.our-team-title,
+.portfolio-title,
+.benefits-item-title,
+.our-team-item-title,
+.portfolio-item-title {
+color: #2e2f42;
+}
+
+.benefits-title,
+.our-team-title,
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
 
 .benefits-item-title,
 .our-team-item-title,
@@ -103,7 +119,6 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 
 .contacts-links,
@@ -121,17 +136,9 @@ button {
     background-color: #f4f4fd;
 }
 
-.our-team-title,
-.portfolio-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-}
-
 /*  #endregion our team */
 /* #region footer */
-.hero-title,
+.hero,
 .page-footer {
     background-color: #2e2f42;
 }
