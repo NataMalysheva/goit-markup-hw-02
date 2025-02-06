@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto"; san-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #fff;
 }
@@ -71,13 +71,12 @@ button {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
 }
 
 .hero-btn {
-    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -133,7 +132,7 @@ color: #2e2f42;
 /* #endregion section-benefits */
 /*  #region our team */
 .our-team {
-    background-color: #f4f4fd;
+    background-color: #FFFFFF;
 }
 
 /*  #endregion our team */
