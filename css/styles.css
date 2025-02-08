@@ -52,6 +52,7 @@ button {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .hero-title,
 .hero-btn {
@@ -69,7 +70,10 @@ button {
     background-color: #404bbf;
 }
 .our-team {
-    background-color: #FFFFFF;
+    background-color: #f4f4fd;    
+}
+.our-team-list-item {
+    background-color: #ffffff;
 }
 .benefits-title,
 .our-team-title,
@@ -86,6 +90,8 @@ color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
 .benefits-item-title,
 .our-team-item-title,
