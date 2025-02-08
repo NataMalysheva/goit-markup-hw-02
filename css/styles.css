@@ -3,21 +3,16 @@ body {
     color: #434455;
     background-color: #fff;
 }
-
 ul,
 ol {
     list-style-type: none;
 }
-
 a {
     text-decoration: none;
 }
-
 button {
     cursor: pointer;
 }
-
-/* #region nav */
 .header-logo, .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -27,72 +22,55 @@ button {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-
-.nav-link, .logo-part {
+.nav-link, 
+.logo-part {
     color: #2e2f42;
 }
-
 .footer-logo {
     color: #f4f4fd;
 }
-
-.header-logo {
-    margin-right: 76px;
-}
-
 .nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
 .nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
-
-/* #endregion nav */
-
-.contacts {
-    font-style: normal;
-}
-
-.contacts-links {
-    color: #434455;
-}
-
+.nav-link:focus,
 .contacts-links:hover,
 .contacts-links:focus {
     color: #404bbf;
 }
-
-/* #region hero */
+.contacts {
+    font-style: normal;
+}
+.contacts-links {
+    color: #434455;
+}
 .hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+}
+.hero-title,
+.hero-btn {
     color: #fff;
 }
-
 .hero-btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
     background-color: #4d5ae5;
 }
-
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #404bbf;
 }
-
-/* #endregion hero */
-
-/* #region section-benefits */
+.our-team {
+    background-color: #FFFFFF;
+}
 .benefits-title,
 .our-team-title,
 .portfolio-title,
@@ -101,7 +79,6 @@ button {
 .portfolio-item-title {
 color: #2e2f42;
 }
-
 .benefits-title,
 .our-team-title,
 .portfolio-title {
@@ -110,7 +87,6 @@ color: #2e2f42;
     line-height: 1.11;
     letter-spacing: 0.02em;
 }
-
 .benefits-item-title,
 .our-team-item-title,
 .portfolio-item-title {
@@ -119,7 +95,6 @@ color: #2e2f42;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-
 .contacts-links,
 .benefits-item-text,
 .our-team-item-text,
@@ -128,25 +103,13 @@ color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-/* #endregion section-benefits */
-/*  #region our team */
-.our-team {
-    background-color: #FFFFFF;
-}
-
-/*  #endregion our team */
-/* #region footer */
 .hero,
 .page-footer {
     background-color: #2e2f42;
 }
-
 .page-footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-
-/* #endregion footer */
